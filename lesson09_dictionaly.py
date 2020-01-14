@@ -48,3 +48,13 @@ y = x.copy()
 y['a'] = 1000
 print(x)
 print(y)
+
+print('--------------------')
+fruits = {
+    'apple': 100,
+    'banana': 200,
+    'orange': 300,
+}
+
+# dictは内部的にhash tableを使っているのでlistで2次元配列にするより早い
+print(fruits['apple'])
