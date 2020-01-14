@@ -21,3 +21,15 @@ print(a & b)
 print(a | b)
 # aかbにあるが、重複してないもの
 print(a ^ b)
+
+print('----------------')
+
+my_friends = {'A', 'C', 'D'}
+A_friends = {'B', 'D', 'E', 'F'}
+# 共通の友達を＆で探せる
+print(my_friends & A_friends)
+
+f = ['apple', 'banana', 'apple', 'banana']
+# どんな種類の果物か listからsetに型変換して実行
+kind = set(f)
+print(kind)
